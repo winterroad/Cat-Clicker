@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.counter {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 3rem;
+  border: solid 2px #333;
+  text-align: center;
+}
