@@ -7,6 +7,11 @@ body {
   text-transform: uppercase;
 }
 
+h1{
+  display: block;
+  width: 72%;
+  text-align: right;
+}
 .catBox {
   margin: 0 auto;
   width: 95%;
@@ -25,7 +30,6 @@ body {
 }
 
 #mainCatBox {
-  border: 2px solid #333;
   height: 50rem;
   width: 80%;
 }

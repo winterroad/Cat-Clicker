@@ -32,7 +32,7 @@ function addTheCats(catsInArr){
     let elementToBeAdded;
     const fragment = document.createDocumentFragment();
     howManyCats = catsInArr.length;
-    for(let i=0; i < howManyCats; i++){      
+    for(let i=0; i < howManyCats; i++){
       let cat = catsInArr[i];
       //Add img info inside div.
       let elementToBeAdded = document.createElement("div");
@@ -43,8 +43,6 @@ function addTheCats(catsInArr){
     //Add the document fragment that has all the divs with pic-info to the game-div.
     CATS.appendChild(fragment);
   }
-
-
 
 function nameTheCat(nameNum){
   //randomize a name from nameArray and return it
