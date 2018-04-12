@@ -1,21 +1,43 @@
 body {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 
 .catBox {
-  width: 95%;
   margin: 0 auto;
+  width: 95%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  align-content: center;
 }
 
-.catboxSmaller {
-  display: inline-block;
+#sideCatBox {
+  width: 15%;
+  border: 2px solid #333
 }
 
+#mainCatBox {
+  border: 2px solid #333;
+  height: 50rem;
+  width: 80%;
+}
+
+#mainCatBox img {
+  border: 2px solid #333;
+  width: 400px;
+}
+.catName{
+padding-top: 1rem;
+
+}
 
 img {
   border-radius: 10px;
@@ -26,7 +48,7 @@ img {
 }
 
 .counter {
-  margin: 2rem auto;
+  margin: 0.25rem auto;
   padding: 1rem;
   width: 3rem;
   border: solid 2px #333;
