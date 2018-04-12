@@ -12,6 +12,7 @@ h1{
   width: 72%;
   text-align: right;
 }
+
 .catBox {
   margin: 0 auto;
   width: 95%;
@@ -37,7 +38,9 @@ h1{
 #mainCatBox img {
   border: 2px solid #333;
   width: 400px;
+  margin-top: 5rem;
 }
+
 .catName{
 padding-top: 1rem;
 
